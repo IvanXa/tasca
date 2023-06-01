@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Proyecto 1DAW - SOLVAM</title>
+
+    <!-- CSS ================================================== -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/encabezado.css">
+    <link rel="stylesheet" href="css/pie.css">
+
+    <!-- Favicons ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- JS ================================================== -->
+
+</head>
+<style>
+    body{
+        background-image: url(luxury-black-and-gold-marble-texture-background-panoramic-marbling-texture-design-for-banner-invitation-wallpaper-headers-website-print-ads-packaging-design-template-free-vector.jpg);
+    }
+    #contenedor {
+        width: 1170px;
+        margin: 0 auto;
+        overflow: auto;
+        background-image: url(luxury-black-and-gold-marble-texture-background-panoramic-marbling-texture-design-for-banner-invitation-wallpaper-headers-website-print-ads-packaging-design-template-free-vector.jpg);
+
+    }
+
+    #encabezado {
+        width: 1160px;
+        height: 150px;
+
+
+    }
+
+    .logo {
+    float: left;
+    position: relative;
+    width: 470px;
+    height: 75px;
+
+    top: 20px;
+    left: 30px;
+    background-image: url(gamenews.png);
+    background-repeat: no-repeat;
+}
+
+.banner {
+    position: relative;
+    width: 470px;
+    height: 75px;
+    left: 75px;
+    background-image: url(banner2.png);
+    background-repeat: no-repeat;
+
+}
+
+nav {
+
+    padding: 10px;
+}
+
+.menu li {
+
+    display: inline;
+
+}
+
+.menu li a {
+    display: inline-block;  
+    padding: 15px;
+    text-decoration: none;
+    color: #f5f0f0;
+font-weight: bolder;
+    border: 1px solid rgb(253, 253, 253);
+    border-left: none;
+    border-right: none;
+}
+
+.menu li a:hover {
+    background-color: #a37d14;
+}
+
+.menu {
+    float: right;
+    position: relative;
+    width: 580px;
+    height: 50px;
+    top: 20px;
+    right: 15px;
+}
+
+    #detalles {
+        width: auto;
+        height: 800px;
+    }
+
+    .foto {
+        float: left;
+        width: 570px;
+        height: 770px;
+        border: 1px solid brown;
+        margin-top: 10px;
+        margin-left: 15px;
+        background-image: url(RiotX_ChampionList_kassadin.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .contenido {
+        float: right;
+        margin-top: 10px;
+        margin-right: 30px;
+        width: 520px;
+        height: 770px;
+        border: solid red 1px;
+    }
+
+    .titulo {
+        width: auto;
+        height: 65px;
+        border: solid red 1px;
+    }
+
+    .descripcion {
+        width: auto;
+        height: 120px;
+        border: solid blue 1px;
+    }
+
+    .cuerpo {
+        width: auto;
+        height: 110px;
+        border: solid green 1px;
+
+    }
+
+    .info {
+        width: auto;
+        height: 290px;
+        border: solid green 1px;
+    }
+
+    .date {
+        width: auto;
+        height: 55px;
+        border: solid rgb(241, 231, 231) 1px;
+    }
+
+    .client {
+        width: auto;
+        height: 55px;
+        border: solid rgb(238, 233, 233) 1px;
+    }
+
+    .services {
+        width: auto;
+        height: 55px;
+        border: solid rgb(216, 211, 211) 1px;
+    }
+
+    .art {
+        width: auto;
+        height: 55px;
+        border: solid rgb(241, 233, 233) 1px;
+    }
+
+    .designer {
+        width: auto;
+        height: 55px;
+        border: solid rgb(247, 237, 237) 1px;
+    }
+
+    .enlaces {
+        width: auto;
+        height: 80px;
+        border: solid pink 1px;
+    }
+
+    .mas {
+        width: 150px;
+        height: 30px;
+        float: left;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 20px;
+        border: solid rgb(173, 124, 17) 1px;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 3px;
+        color: white;
+        background-image: linear-gradient(to bottom, #9e812071, #00000056);
+        font-weight: bold;
+
+    }
+
+    .mas:hover {
+        color: grey;
+        transform: translateY(5px);
+
+    }
+
+    .volver {
+        float: right;
+        margin-top: 30px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        width: 120px;
+        height: 30px;
+        background-image: url(flecha-correcta.png);
+        background-repeat: no-repeat;
+        background-position-x: -10px;
+        background-position-y: -7px;
+
+    }
+
+    .volver:hover {
+        color: #a57315;
+        background-position-x: 8px;
+    }
+
+    #pie {
+    width: auto;
+    height: 450px;
+    border: 2px solid rgb(167, 139, 17);
+background-color: grey;
+background-image: url(images.png);
+
+}
+.pie1 {
+    float: left;
+    top: 10px;
+    left: 10px;
+    width: 170px;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+}
+
+.nosotros {
+    width: auto;
+    height: 30px;
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.zonlog {
+    width: auto;
+    height: 150px;
+    color: white;
+}
+
+.lugar {
+    width: auto;
+    height: 60px;
+    color: white;
+}
+
+.pie2 {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: solid rgb(255, 255, 255) 2px;
+    background-image: url(thread-9014924-11470506657998028469.jpeg);
+
+}
+
+
+
+.pie3 {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    border: solid rgb(255, 255, 255) 2px;
+}
+.latest{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.imagencilla{
+
+    width: 195px;
+    height: 180px;
+    border: 1px solid red;
+}
+.cosa1{
+    width: 195px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.pie4 {
+    float: left;
+    width: 380px;
+    height: 320px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.pie5 {
+    position: relative;
+    margin-top: 270px;
+    margin-left: 10px;
+    width: 300px;
+    height: 120px;
+
+   
+}
+
+.facebook {
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+}
+
+.facebook:hover {
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position: left 45px;
+}
+
+.twitter {
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -50px;
+}
+.twitter:hover {
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+.balon{
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -100px;
+}
+.balon:hover{
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+.wifi{  
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -153px;
+}
+.wifi:hover{  
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+.arbol{
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -204px;
+}
+.arbol:hover{
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+
+
+.pie6 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 1000px;
+    height: 50px;
+    border: solid black 2px;
+    background-color: rgba(194, 171, 171, 0.596);
+
+}
+.copy{
+    float: left;
+    color: white;
+    text-align:justify;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.img2 {
+    border: solid rgb(177, 132, 10) 1px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    float: left;
+    background-image: url(lol2.jpeg);
+}
+
+.img2:hover {
+    background-color: rgb(218, 175, 34);
+}
+
+.photos {
+    width: auto;
+    height: 30px;
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu2 li {
+    float: right;
+    display: inline;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.menu2 li a {
+    float: right;
+    text-align:justify;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-left: none;
+    border-bottom: none;
+    font-size: large;
+    border-top: none;
+    padding-right: 10px;
+}
+
+
+.menu2 li a:hover {
+    color: #d8450b;
+}
+</style>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="encabezado">
+            <div class="logo">
+                <div class="banner"></div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="detalles.html">Features</a></li>
+                        <li><a href="pages.html">Pages</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contact</a></li>
+                        <li><a href="http://ivannh.com.es:8080/ivannh/proyecto/webapp/saludo.jsp">Log-In</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="limpiar"></div>
+        </div>
+        <div id="detalles">
+            <div class="foto"></div>
+            <div class="contenido">
+                <div class="titulo"></div>
+                <div class="descripcion"></div>
+                <div class="cuerpo"></div>
+                <div class="info">
+                    <div class="date"></div>
+                    <div class="client"></div>
+                    <div class="services"></div>
+                    <div class="art"></div>
+                    <div class="designer"></div>
+                </div>
+                <div class="enlaces">
+                    <div class="mas">Más Información...</div>
+                    <div class="volver">Volver...</div>
+                </div>
+            </div>
+        </div>
+        <div id="pie">
+            <div class="pie1">
+                <div class="nosotros"> <br> SOBRE NOSOTROS:</div>
+				<div class="zonlog"><br><br>
+                    Creador: Iván Núñez Hidalgo <br>
+                    Diseño de Web Proyecto 1DAW
+                </div>
+				<div class="lugar">Quart de Poblet, 46930<br> CFP SOLVAM</div>
+            </div>
+            <div class="pie2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1282.1944636318347!2d-0.4278924486496873!3d39.47725701767911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f576ab83a03%3A0x8c36b8a0316978df!2sParque%20canino!5e0!3m2!1ses!2ses!4v1685346417550!5m2!1ses!2ses" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="pie3">
+                <div class="latest">Latest Post</div>
+                <div class="imagencilla"></div>
+                <div class="cosa1"></div>
+                <div class="cosa2"></div>
+
+            </div>
+            <div class="pie4">
+                <div class="photos">PHOTOS</div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+            </div>
+            <div class="pie5">
+                <div class="facebook"></div>
+                <div class="twitter"></div>
+                <div class="balon"></div>
+                <div class="wifi"></div>
+                <div class="arbol"></div>
+
+            </div>
+            <div class="pie6">
+                <div class="copy">Copyright 2023 SOLVAM. All rights reserved.</div>
+                <div class="menu2">
+                    <nav>
+                        <ul class="menu2">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Home</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

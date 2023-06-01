@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Proyecto 1DAW - SOLVAM</title>
+
+    <!-- CSS ================================================== -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/encabezado.css">
+    <link rel="stylesheet" href="css/pie.css">
+
+    <!-- Favicons ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- JS ================================================== -->
+    <style>
+        body {
+            background-image: url(luxury-black-and-gold-marble-texture-background-panoramic-marbling-texture-design-for-banner-invitation-wallpaper-headers-website-print-ads-packaging-design-template-free-vector.jpg);
+        }
+
+        #contacto {
+            width: 1170px;
+            margin: 0 auto;
+            overflow: auto;
+            background-image: url(luxury-black-and-gold-marble-texture-background-panoramic-marbling-texture-design-for-banner-invitation-wallpaper-headers-website-print-ads-packaging-design-template-free-vector.jpg);
+
+        }
+
+        .limpiar {
+            clear: both;
+        }
+
+        #contenedor {
+            width: 1170px;
+            margin: 0 auto;
+            overflow: auto;
+            background-image: url(luxury-black-and-gold-marble-texture-background-panoramic-marbling-texture-design-for-banner-invitation-wallpaper-headers-website-print-ads-packaging-design-template-free-vector.jpg);
+
+        }
+
+        .limpiar {
+            clear: both;
+        }
+
+        #encabezado {
+            width: 1160px;
+            height: 150px;
+        }
+
+        .logo {
+            float: left;
+            position: relative;
+            width: 470px;
+            height: 75px;
+
+            top: 20px;
+            left: 30px;
+            background-image: url(gamenews.png);
+            background-repeat: no-repeat;
+        }
+
+        .banner {
+            position: relative;
+            width: 470px;
+            height: 75px;
+            left: 75px;
+            background-image: url(banner2.png);
+            background-repeat: no-repeat;
+
+        }
+
+        nav {
+
+            padding: 10px;
+        }
+
+        .menu li {
+
+            display: inline;
+
+        }
+
+        .menu li a {
+            display: inline-block;
+            padding: 15px;
+            text-decoration: none;
+            color: #f5f0f0;
+            font-weight: bolder;
+            border: 1px solid rgb(253, 253, 253);
+            border-left: none;
+            border-right: none;
+        }
+
+        .menu li a:hover {
+            background-color: #a37d14;
+        }
+
+        .menu {
+            float: right;
+            position: relative;
+            width: 580px;
+            height: 50px;
+            top: 20px;
+            right: 15px;
+        }
+#cont{
+width: 1160px;
+height: 700px;
+margin-bottom: 30px;
+}
+
+
+
+
+        #zona1 {
+            width: 680px;
+            height: 680px;
+            float: left;
+
+        }
+
+        .title {
+
+            width: auto;
+            height: 50px;
+            color: white;
+            text-shadow: 2px 2px 4px rgb(253, 253, 253);
+
+        }
+
+
+
+        .descrip {
+            margin-top: 10px;
+            padding-top: 10px;
+            width: auto;
+            height: 90px;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .message {
+            margin-top: 5px;
+            border-radius: 8px;
+            width: auto;
+            height: 30px;
+            border: 1px solid rgb(30, 224, 40);
+            background-color: rgb(95, 238, 150, 0.3);
+            color: rgb(1, 255, 1);
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .cuestionario {
+            width: auto;
+            height: 430px;
+
+        }
+
+        .name {
+            margin-top: 18px;
+            margin-left: 10px;
+            width: 475px;
+            height: 45px;
+        }
+
+        .address {
+            margin-top: 18px;
+            margin-left: 10px;
+            width: 475px;
+            height: 45px;
+        }
+
+        .url {
+            margin-top: 18px;
+            margin-left: 10px;
+            width: 475px;
+            height: 45px;
+        }
+
+        .caja {
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 575px;
+            height: 150px;
+            border: 1px solid black;
+            resize: none;
+            box-sizing: border-box;
+        }
+
+        .foto {
+            border: 1px solid rgb(0, 0, 0);
+            width: 44px;
+            height: 44px;
+        }
+
+        .name .foto {
+            background-image: url(user-avatar.jpg);
+        }
+
+        .address .foto {
+            background-image: url(Screenshot\ from\ 2023-05-19\ 11-44-00.png);
+
+        }
+
+        .url .foto {
+            background-image: url(page-bg-1.jpg);
+            background-repeat: no-repeat;
+        }
+
+        .texto {
+            position: relative;
+            width: 425px;
+            height: 45px;
+            resize: none;
+            box-sizing: border-box;
+            top: -45px;
+            left: 46px;
+        }
+
+        .enviar {
+            width: 150px;
+            height: 30px;
+            margin-top: 18px;
+            margin-left: 10px;
+            border: solid rgb(0, 0, 0) 1px;
+            text-align: center;
+            padding-top: 5px;
+            border-radius: 3px;
+            color: white;
+            background-image: linear-gradient(to bottom, #b69816, #4e4d4d);
+            font-weight: bold;
+
+        }
+
+        .enviar:hover {
+            color: rgb(255, 252, 252);
+            transform: translateY(5px);
+
+        }
+
+        #zona2 {
+
+            width: 430px;
+            height: 700px;
+            float: right;
+        }
+
+        .datos {
+            width: auto;
+            height: 45px;
+            border: 1px solid rgb(0, 0, 0);
+            border-left: none;
+            border-right: none;
+            margin-top: 20px;
+            background-color: white;
+            padding-top: 20px;
+            font-size: x-large;
+            text-shadow: #535353;
+            color: #b69816;
+        }
+
+        .solvam {
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .lorenzo {
+            font-weight: bold;
+            color: white;
+        }
+
+        .correo {
+            color: orangered;
+        }
+
+        .solvam {
+            width: auto;
+            height: 230px;
+
+            margin-top: 10px;
+            line-height: 30px;
+        }
+
+        .lugar2 {
+            width: auto;
+            height: 45px;
+            border: 1px solid black;
+            border-left: none;
+            border-right: none;
+            margin-top: 20px;
+            background-color: white;
+            padding-top: 20px;
+            font-size: x-large;
+            color: #b69816;
+        }
+
+        .mapa {
+            margin-top: 15px;
+            width: auto;
+            height: 250px;
+            border: 1px solid green;
+        }
+        #pie {
+    width: auto;
+    height: 450px;
+    border: 2px solid rgb(167, 139, 17);
+background-color: grey;
+background-image: url(images.png);
+
+}
+.pie1 {
+    float: left;
+    top: 10px;
+    left: 10px;
+    width: 170px;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+}
+
+.nosotros {
+    width: auto;
+    height: 30px;
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.zonlog {
+    width: auto;
+    height: 150px;
+    color: white;
+}
+
+.lugar {
+    width: auto;
+    height: 60px;
+    color: white;
+}
+
+.pie2 {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: solid rgb(255, 255, 255) 2px;
+    background-image: url(thread-9014924-11470506657998028469.jpeg);
+
+}
+
+
+
+.pie3 {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    }
+
+.latest{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.imagencilla{
+
+    width: 195px;
+    height: 180px;
+    border: 1px solid red;
+}
+.cosa1{
+    width: 195px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+
+.pie4 {
+    float: left;
+    width: 380px;
+    height: 320px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.pie5 {
+    position: relative;
+    margin-top: 270px;
+    margin-left: 10px;
+    width: 300px;
+    height: 120px;
+
+   
+}
+
+.facebook {
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+}
+
+.facebook:hover {
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position: left 45px;
+}
+
+.twitter {
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -50px;
+}
+.twitter:hover {
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+.balon{
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -100px;
+}
+.balon:hover{
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+.wifi{  
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -153px;
+}
+.wifi:hover{  
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+.arbol{
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+background-position-x: -204px;
+}
+.arbol:hover{
+    width: 50px;
+    height: 46px;
+    background-image: url(social-icons.png);
+    background-position-y: 45px;
+}
+
+
+.pie6 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 1000px;
+    height: 50px;
+    border: solid black 2px;
+    background-color: rgba(194, 171, 171, 0.596);
+
+}
+.copy{
+    float: left;
+    color: white;
+    text-align:justify;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.img2 {
+    border: solid rgb(241, 235, 235) 1px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    float: left;
+    background-image: url(lol2.jpeg);
+}
+
+.img2:hover {
+    background-color: rgb(218, 175, 34);
+}
+
+.photos {
+    border: 1px solid green;
+    width: auto;
+    height: 30px;
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu2 li {
+    float: right;
+    display: inline;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.menu2 li a {
+    float: right;
+    text-align:justify;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-left: none;
+    border-bottom: none;
+    font-size: large;
+    border-top: none;
+    padding-right: 10px;
+}
+
+
+.menu2 li a:hover {
+    color: #d8450b;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="contacto">
+        <div id="encabezado">
+            <div class="logo">
+                <div class="banner"></div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="detalles.html">Features</a></li>
+                        <li><a href="pages.html">Pages</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contact</a></li>
+                        <li><a href="http://ivannh.com.es:8080/ivannh/proyecto/webapp/saludo.jsp">Log-In</a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="limpiar"></div>
+        </div>
+        <div id="cont">
+            <div id="zona1">
+                <div class="title">
+                    <h1 class="titulo">CONTACTA CON NOSOTROS... </h1>
+                </div>
+                <div class="descrip">¡Contáctanos! Estamos aquí para ayudarte. Si tienes alguna pregunta, comentario o
+                    consulta, no dudes en comunicarte con nosotros. Completa el formulario de contacto a continuación y
+                    te
+                    responderemos lo antes posible. ¡Esperamos saber de ti!</div>
+                <div class="message">Well done, you succesfully read this important alert message.</div>
+                <div class="cuestionario">
+                    <div class="name">
+                        <div class="foto"></div>
+                        <textarea class="texto"></textarea>
+                    </div>
+                    <div class="address">
+                        <div class="foto"></div>
+                        <textarea class="texto"></textarea>
+                    </div>
+                    <div class="url">
+                        <div class="foto"></div>
+                        <textarea class="texto"></textarea>
+                    </div>
+                    <textarea class="caja"></textarea>
+                    <div class="enviar">Send Message</div>
+                </div>
+            </div>
+        
+        <div id="zona2">
+            <div class="datos">DATOS DE CONTACTO</div>
+            <div class="solvam">
+                SOLVAM<br> Cervantes,3 <br> Quart de Poblet - 46930 <br> P:Tel: 96 154 77 93 <br><br>
+                <div class="lorenzo">Lorenzo Sánchez <br></div>
+                <div class="correo">lorenzo@gmail.com</div>
+            </div>
+            <div class="lugar2">DONDE ESTAMOS</div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49271.377617019294!2d-0.5238907705357879!3d39.481501565867696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604ff925b1d0cd%3A0x8c3887bcf48f6ffb!2s46930%20Cuart%20de%20Poblet%2C%20Valencia!5e0!3m2!1ses!2ses!4v1685349653766!5m2!1ses!2ses" width="430" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        </div>
+        <div id="pie">
+            <div class="pie1">
+				<div class="nosotros"> <br> SOBRE NOSOTROS:</div>
+				<div class="zonlog"><br><br>
+                    Creador: Iván Núñez Hidalgo <br>
+                    Diseño de Web Proyecto 1DAW
+                </div>
+				<div class="lugar">Quart de Poblet, 46930<br> CFP SOLVAM</div>
+			</div>
+            <div class="pie2"></div>
+            <div class="pie3">
+                <div class="latest">Latest Post</div>
+                <div class="imagencilla"></div>
+                <div class="cosa1"></div>
+                <div class="cosa2"></div>
+
+            </div>
+            <div class="pie4">
+                <div class="photos">PHOTOS</div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+                <div class="img2"></div>
+            </div>
+            <div class="pie5">
+                <div class="facebook"></div>
+                <div class="twitter"></div>
+                <div class="balon"></div>
+                <div class="wifi"></div>
+                <div class="arbol"></div>
+
+            </div>
+            <div class="pie6">
+                <div class="copy">Copyright 2023 SOLVAM. All rights reserved.</div>
+                <div class="menu2">
+                    <nav>
+                        <ul class="menu2">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Home</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
